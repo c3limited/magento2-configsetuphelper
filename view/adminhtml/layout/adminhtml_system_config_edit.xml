@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="C3_ConfigSetupHelper::css/configsetuphelper.css"/>
+    </head>
+    <referenceContainer name="page.main.actions">
+        <block class="Magento\Framework\View\Element\Template" name="adminhtml.system.config.setup.option" template="C3_ConfigSetupHelper::switch.phtml" ifconfig="dev/c3_configsetuphelper/enabled" after="adminhtml.system.config.switcher" />
+    </referenceContainer>
+</page>

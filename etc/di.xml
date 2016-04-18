@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Config\Block\System\Config\Form">
+        <plugin name="configSetupHelper" type="C3\ConfigSetupHelper\Block\System\Config\FormPlugin" sortOrder="200" />
+    </type>
+    <type name="Magento\Config\Model\Config">
+        <plugin name="configSetupHelper" type="C3\ConfigSetupHelper\Model\ConfigPlugin" sortOrder="200" />
+    </type>
+</config>
