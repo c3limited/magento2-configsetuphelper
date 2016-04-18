@@ -18,7 +18,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "C3\\ConfigSetupHelper": ""
+            "C3\\ConfigSetupHelper\\": ""
         }
     }
 }
